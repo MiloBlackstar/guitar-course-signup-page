@@ -1,0 +1,60 @@
+section {
+  width: 80%;
+  margin: 2em auto;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h2 + p {
+  font-size: 1.4rem;
+  color: #FFBF00;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.2rem;
+}
+
+form {
+  margin: 0 auto;
+  width: 80%;
+  display:flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 1em;
+  padding: .75em;
+  font-size: 1.2rem;
+  border: 2px solid #707070;
+  transition: transform 0.3s;
+}
+
+input:focus {
+  outline: none;
+  transform: scale(1.05);
+}
+
+button {
+  background-color: #FFBF00;
+  border: none;
+  font-size: 1.4rem;
+  padding: 0.75em 1em;
+  transition: transform 0.3s;
+}
+
+button:focus,
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  outline: none;
+}
+
+.close-note {
+  margin-top: 1.4em;
+  color: #707070;
+  text-align: center;
+  font-size: 0.8rem;
+}
