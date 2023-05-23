@@ -4,7 +4,7 @@ section {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h2 + p {
@@ -57,4 +57,20 @@ button:hover {
   color: #707070;
   text-align: center;
   font-size: 0.8rem;
+}
+
+@media (min-width: 980px) {
+
+  main {
+    display: flex;
+    align-items: center;
+  }
+
+  .wrapper {
+    padding: 5em;
+  }
+
+  h2, h2 + p, .description {
+    text-align: center;
+  }
 }

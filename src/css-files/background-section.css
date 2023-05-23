@@ -4,7 +4,7 @@ header {
   background-image: url('../images/bg-photo-small.jpg');
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  padding: 5em;
+  padding: 3em;
   color: #FFFFF0;
   background-size: cover;
   background-position-x: 35%;
@@ -31,4 +31,26 @@ header p span {
   color: #FFBF00;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  header {
+    padding: 2em;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 980px) {
+  header {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
 }
